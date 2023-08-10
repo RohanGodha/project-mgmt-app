@@ -1,0 +1,33 @@
+{
+  "name": "project-mgmt-app",
+  "description": "Build a full-stack Project Management System with GraphQL, Express, MongoDB, React, and Apollo.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RohanGodha/project-mgmt-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RohanGodha/project-mgmt-app/issues"
+  },
+  "homepage": "https://github.com/RohanGodha/project-mgmt-app#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0",
+    "mongoose": "^7.4.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1"
+  }
+}
